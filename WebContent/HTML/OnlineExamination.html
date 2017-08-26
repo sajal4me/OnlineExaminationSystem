@@ -1,0 +1,158 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" type="text/css" href="CSS/OnlineExamination.css">
+<link rel="stylesheet" type="text/css" href="CSS/newOnlineExamination.css">
+<link rel="shortcut icon" href="IMAGE/tabLogo.png" />
+<title>Home</title>
+</head>
+<body>
+	<div id="top">
+		<a href="JSP/OnlineExamination.jsp"><img id="logo"
+			src="IMAGE/OES.png" /></a> <a id="signInReg" href="FetchSecurityQuestion"
+			title="click here Sign in/Register"><strong>Sign
+				In/Register</strong></a>
+	</div>
+
+	<div id="menu">
+		<ul id="ul_1">
+			<li><a href="Check_User_Session_help">Help</a></li>
+			<li><a href="Check_User_Session_about">About Us</a></li>
+			<li><a href="Check_User_Session_Category">Online Tests</a></li>
+		</ul>
+	</div>
+	<div id="containerOne">
+		</br>
+
+		<div id="gallery">
+			<div id=galleryMsg>
+				<strong><marquee>
+						<p>
+							<i>Don't Stress. Do Your Best. Forget The Rest.</i>
+						</p>
+					</marquee></strong>
+			</div>
+			<div id="pic">
+				<img id="myPhoto" src="IMAGE/onlineExam3.jpg" alt="sunset beach" />
+				<script type="text/javascript">
+						var myImage=document.getElementById("myPhoto");
+						/* var imageArray=["IMAGE/slide-2-1349x871_c.jpg","IMAGE/headslowlyslowly.jpg","IMAGE/Expo.jpg","IMAGE/img02.png","IMAGE/slide-2-1349x871_c.jpg"]; */
+						var imageIndex=0;
+						var imageArray=["IMAGE/onlineExam1.jpg","IMAGE/onlineExam2.jpg","IMAGE/onlineExam3.jpg","IMAGE/onlineExam4.jpg","IMAGE/onlineExam5.jpg"];
+						function changeImage()
+						{
+						 myPhoto.setAttribute("src",imageArray[imageIndex]);
+						 imageIndex++;
+						 if(imageIndex>=imageArray.length)
+						   {
+							 imageIndex=0;
+						   }
+						}
+						var intervalHandle=setInterval(changeImage,1500);
+						myPhoto.onclick=function()
+						{
+							clearInterval(intervalHandle);
+							}
+					</script>
+			</div>
+		</div>
+	</div>
+	<div id="containerTwo" >
+		<div id="message">
+			<p id="titleVision">What is Online Test</p>
+			<p id="visionContent">
+				<i>"Nowadays, online exam or test is the most popular process
+					for selection candidates in employment sector or education sector.
+					The traditional examination procedure was costly, maximum effort
+					very lengthy process. That why the exam process has been replaced
+					by online exam in the present times. This modern process of
+					assessment has been accepted in maximum no of Government sector,
+					recognized organization, public sector and institutions to
+					selection the best candidate. The main benefit of this modern
+					process is to save papers, low cost, minimum employee requirement
+					to conduct this process, minimum effort, saving time, instant
+					result and conduct this exam in India as well as abroad.."</i>
+			</p>
+		</div>
+		<div id="OES">
+			<div id="titleFirst">
+				<p>Why you like OES ?</p>
+			</div>
+			<p id="OESContent">
+				<i>" All questions are selected by most experienced faculty and
+					teachers.<br> Review your previous test performance and
+					progress.<br> All the online test of this site are free of
+					cost.<br> Free and Unlimited test series are available.<br>
+					Free and Simple Registration."
+				</i>
+			</p>
+		</div>
+
+	</div>
+	<div id="containerThree">
+
+		<div id="quickLink">
+			<br>
+			<Strong>Quick Links</strong><br>
+			<br>
+			<p>
+				<a href="Check_User_Session_MainHome">Home</a>
+			</p>
+			<p>
+				<a href="Check_User_Session_about">About Us</a>
+			</p>
+			<p>
+				<a href="Check_User_Session_faq">FAQ</a>
+			</p>
+			<!-- <p><a href="faculty.html">Faculty</a></p>
+				<p><a href="studentZone.html">Student Zone</a></p>
+				<p><a href="index.html">News</a></p>	 -->
+		</div>
+
+		<div id="followUs">
+			<br>
+			<Strong>Follow Us</strong><br>
+			<br>
+			<p id="footerFacebook">
+				<a href="https://www.facebook.com/" target="_blank"><img
+					src="IMAGE/fb.png" width="20px" /> Facebook</a>
+			</p>
+			<br>
+			<p id="footerTwitter">
+				<a href="https://twitter.com/" target="_blank"> <img
+					src="IMAGE/twitter.png" width="20px" /> Twitter
+				</a>
+			</p>
+			<br>
+			<p id="footerYoutube">
+				<a href="https://www.youtube.com/" target="_blank"> <img
+					src="IMAGE/youtube.png" width="20px" /> Youtube
+				</a>
+			</p>
+		</div>
+
+		<div id="contact">
+			<br>
+			<Strong>Contact Us</strong><br>
+			<br>
+			<p>P.O. Box 201003</p>
+			<p>Delhi-Meerut Road</p>
+			<p>Ghaziabad</p>
+			<p>Mob: +91 8587878471</p>
+			<p id="footerMail">
+				<img src="IMAGE/foot_mail.png" /> onlineexamination.edu@gmail.com
+			</p>
+			<p id="footerSkype">
+				<img src="IMAGE/foot_skype.png" /> Coming soon...
+			</p>
+		</div>
+
+	</div>
+	<div id="copyRight">
+		<p>Copyright © 2017 OnlineExamination.in...All Rights
+			Reserved.&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Site
+			Developer: Manish Patel | Sajal Gupta | Sunny Agarwal | Umang Kesari</p>
+	</div>
+</body>
+</html>

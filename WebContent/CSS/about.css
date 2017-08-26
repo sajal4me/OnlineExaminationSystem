@@ -1,0 +1,123 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#containerTwo {
+	position: relative;
+	border-top: solid yellow 1px;
+	width: 100%;
+	height: 800px;
+	background-color: white;
+	background-image: url('../IMAGE/2012_1002ah-min - Copy.jpg');
+	background-size: 100% 800px;
+}
+
+#message {
+	position: relative;
+	border-top: solid yellow 1px;
+	width: 100%;
+	height: 300px;
+}
+
+#titleVision {
+	position: absolute;
+	left: 43.5%;
+	top: 5%;
+	border-bottom: 2px solid blue;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+#visionContent {
+	position: absolute;
+	top: 25%;
+	text-indent: 4em;
+	font-size: 20px;
+	color: white;
+}
+
+#image {
+	position: relative;
+	border-top: solid yellow 1px;
+	width: 100%;
+	height: 500px;
+}
+
+#titleFirst {
+	position: absolute;
+	top: 20px;
+	width: 84%;
+	height: 50px;
+	background-color: dodgerBlue;
+}
+
+#titleFirst p {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+#imgOne {
+	position: absolute;
+	top: 90px;
+	width: 25%;
+	height: 320px;
+}
+
+#imgTwo {
+	position: absolute;
+	top: 90px;
+	left: 25%;
+	width: 25%;
+	height: 320px;
+}
+
+#imgThree {
+	position: absolute;
+	top: 90px;
+	left: 50%;
+	width: 25%;
+	height: 320px;
+}
+
+#imgFour {
+	position: absolute;
+	top: 90px;
+	left: 75%;
+	width: 25%;
+	height: 320px;
+}
+
+#containerTwo img {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 15px dodgerBlue;
+}
+
+#containerTwo img:hover {
+	border: solid dodgerBlue 2px;
+	box-shadow: 10px 10px 15px #ff00ff;
+}
+
+#name {
+	position: absolute;
+	left: 20%;
+	top: 220px;
+	font-size: 25px;
+	color: dodgerBlue;
+	text-align: center;
+}
+
+#data {
+	position: absolute;
+	left: 15%;
+	top: 260px;
+	font-size: 18px;
+	color: #ff00ff;
+	text-align: center;
+}

@@ -1,0 +1,65 @@
+#containerTwo {
+	position: relative;
+	border-top: solid yellow 1px;
+	width: 100%;
+	height: 550px;
+	background-color: white;
+	background-image: url('../IMAGE/2012_1002ah-min - Copy.jpg');
+	/* background-image: url('../IMAGE/header1.jpg'); */
+	background-size: 100% 550px;
+}
+
+#message {
+	position: relative;
+	border-top: solid yellow 1px;
+	width: 100%;
+	height: 250px;
+}
+
+#titleVision {
+	position: absolute;
+	left: 43.5%;
+	top: 5%;
+	border-bottom: 2px solid blue;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+
+#visionContent {
+	position: absolute;
+	top: 25%;
+	text-indent: 4em;
+	font-size: 20px;
+	color: white;
+}
+
+#OES {
+	position: relative;
+	border-top: solid yellow 1px;
+	width: 100%;
+	height: 300px;
+}
+
+#OESContent {
+	position: absolute;
+	top: 45%;
+	font-size: 20px;
+	color: white;
+}
+
+#titleFirst {
+	position: absolute;
+	top: 20px;
+	width: 84%;
+	height: 50px;
+	background-color: dodgerBlue;
+}
+
+#titleFirst p {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}

@@ -1,0 +1,75 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	position: relative;
+	min-width: 1024px;
+}
+
+body {
+	background-color: silver;
+}
+
+#header {
+	width: 100%;
+	height: 170px;
+	background-color: white;
+}
+
+#headerTitle {
+	position: absolute;
+	left: 50%;
+	top: 6%;
+	color: cadetBlue;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 10px 10px 15px cadetBlue;
+	font-size: 100px;
+}
+
+#containerOne {
+	position: relative;
+	width: 100%;
+	height: 500px;
+}
+
+#option {
+	position: absolute;
+	background-color: cadetBlue;
+	height: 500px;
+	width: 14%;
+}
+
+#option p {
+	background-color: cyan-blue;
+	border-bottom: 1px solid black;
+	text-align: center;
+	font-size: 18px;
+}
+
+#option button {
+	background-color: silver;
+	width: 100%;
+	height: 55px;
+	border-bottom: 1px solid black;
+	text-align: center;
+	color: cadetBlue;
+}
+
+#adminContent {
+	position: absolute;
+	left: 20%;
+	background-color: white;
+	height: 500px;
+	width: 75%;
+	border: 10px solid cadetBlue;
+}
+
+#menu {
+	position: absolute;
+	top: 50%;
+	background-color: Blue;
+	height: 100px;
+	width: 75%;
+}

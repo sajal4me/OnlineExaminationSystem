@@ -1,0 +1,53 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#centerContent {
+	position: relative;
+	border-top: solid yellow 1px;
+	width: 100%;
+	height: 600px;
+	background-color: cadetgrey;
+	background:;
+}
+
+#ques1 {
+	position: relative;
+	border-bottom: solid yellow 1px;
+	width: 100%;
+	height: 150px;
+	margin-top: 10px;
+}
+
+#ques2 {
+	position: relative;
+	border-bottom: solid yellow 1px;
+	width: 100%;
+	height: 150px;
+	margin-top: 10px;
+}
+
+#ques3 {
+	position: relative;
+	border-bottom: solid yellow 1px;
+	width: 100%;
+	height: 150px;
+	margin-top: 10px;
+}
+
+#ques4 {
+	position: relative;
+	border-bottom: solid yellow 1px;
+	width: 100%;
+	height: 150px;
+	margin-top: 10px;
+}
+
+#ques5 {
+	position: relative;
+	border-bottom: solid yellow 1px;
+	width: 100%;
+	height: 150px;
+	margin-top: 10px;
+}

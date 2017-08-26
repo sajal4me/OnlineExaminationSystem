@@ -1,0 +1,180 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: silver;
+}
+
+#table_header {
+	width: 100%;
+	background-color: #999999;
+}
+
+#table_header h1 {
+	display: inline-block;
+	padding: 8px;
+}
+
+#signInReg {
+	background-color: lightSteelBlue;
+	border: 2px solid lightSlateGrey;
+	border-radius: 15px;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	float: right;
+	margin-bottom: 150px;
+	text-decoration: none;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#signInReg:hover {
+	background-color: lightSlateGrey;
+	border: 2px solid lightSteelBlue;
+}
+
+#menu {
+	height: 50px;
+	background-color: lightSteelBlue;
+}
+
+#ul_1 li {
+	display: inline-block;
+	padding: 10px;
+	float: right;
+	border: 2px solid lightSteelBlue;
+	background: lightSlateGrey;
+	border-radius: 0 15px 0 15px;
+	font-size: 20px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#ul_1 a {
+	text-decoration: none;
+	color: white;
+}
+
+#ul_1 a:hover {
+	color: aqua;
+}
+
+#centerContent {
+	position: relative;
+	width: 100%;
+	height: 110vh;
+	margin: auto;
+	background-color: ghostWhite;
+	 box-shadow: 10px 10px 5px #888888;
+}
+
+#footer_part {
+	clear: both;
+	background-color: silver;
+	width: "100%"
+}
+
+#footerList {
+	font-size: 20px;
+	padding: 30px;
+}
+
+#ul_footer {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 230px;
+}
+
+#table_footer a {
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+}
+
+#table_footer a:hover {
+	color: aqua;
+}
+
+#text {
+	border: 5px;
+	border-style: inset;
+	border-color: lightSlateGrey;
+	padding: 20px;
+	height: 170px;
+	width: 500px;
+	margin-left: 400px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+#textSubmit {
+	margin-left: 800px;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 8px;
+	font-size: 25px;
+	color: white;
+}
+
+#signInRegForm {
+	position: absolute;
+	top: 7%;
+	left: 200px;
+	width: 70%;
+	heigth: 1000px;
+	border: solid white 2px;
+	background-color: #ccccff;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 100px 0px 100px 0px;
+	 box-shadow : /*  20px 20px 10px black */ 10px 10px 5px #888888;     /* by me shadow */
+}
+
+#formTable {
+	background-color: #ccccff;
+	width: 80%;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+	border-radius: 20%;
+}
+
+#formTable input {
+	padding: 10px;
+	margin-top: 10px;
+	width: 250px;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+#formTable input:focus {
+	border-radius: 0px;
+}
+
+#signSubmit {
+	cursor: pointer;
+}
+
+#signUpReg {
+	cursor: pointer;
+}
+
+#regSecurity {
+	cursor: pointer;
+}
+
+#formTable select {
+	border: inset 2px;
+	padding: 10px;
+	margin-top: 10px;
+	width: 270px;
+	font-size: 20px;
+	border-radius: 15px;
+	-webkit-appearance: none;
+	color: darkGrey;
+}
+
+#formTable select:focus {
+	border-radius: 0px;
+}

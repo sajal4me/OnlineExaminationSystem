@@ -1,0 +1,208 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: silver;
+}
+
+#table_header {
+	width: 100%;
+	background-color: #999999;
+}
+
+#table_header h1 {
+	display: inline-block;
+	padding: 8px;
+}
+
+#signInReg {
+	background-color: lightSteelBlue;
+	border: 2px solid lightSlateGrey;
+	border-radius: 15px;
+	font-size: 20px;
+	text-align: center;
+	padding: 10px;
+	float: right;
+	margin-bottom: 150px;
+	text-decoration: none;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#signInReg:hover {
+	background-color: lightSlateGrey;
+	border: 2px solid lightSteelBlue;
+}
+
+#menu {
+	height: 50px;
+	background-color: lightSteelBlue;
+}
+
+#ul_1 li {
+	display: inline-block;
+	padding: 10px;
+	float: right;
+	border: 2px solid lightSteelBlue;
+	background: lightSlateGrey;
+	border-radius: 0 15px 0 15px;
+	font-size: 20px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#ul_1 a {
+	text-decoration: none;
+	color: white;
+}
+
+#ul_1 a:hover {
+	color: aqua;
+}
+
+#centerContent {
+	border: solid aqua 2px;
+	background-color: ghostWhite;
+	width: 90%;
+	height: 1200px;
+	margin: auto;
+}
+
+#footer_part {
+	clear: both;
+	background-color: silver;
+	width: "100%"
+}
+
+#footerList {
+	font-size: 20px;
+	padding: 30px;
+}
+
+#ul_footer {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 230px;
+}
+
+#table_footer a {
+	text-decoration: none;
+	font-size: 30px;
+	color: white;
+}
+
+#table_footer a:hover {
+	color: aqua;
+}
+
+#text {
+	border: 5px;
+	border-style: inset;
+	border-color: lightSlateGrey;
+	padding: 20px;
+	height: 170px;
+	width: 500px;
+	margin-left: 400px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+#parafeedback {
+	color: white;
+	font-size: 25px;
+	margin-left: 400px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#textSubmit {
+	margin-left: 800px;
+	margin-top: 10px;
+	border-radius: 5px;
+	padding: 8px;
+	font-size: 25px;
+	color: white;
+}
+
+#developer {
+	border-top: solid yellow 1px;
+	width: 100%;
+	height: 400px;
+}
+
+#developer td {
+	padding: 60px;
+	height: 150px;
+	width: 200px;
+}
+
+#developer img {
+	position: absolute;
+	margin-bottom: 50px;
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	box-shadow: 10px 10px 15px dodgerBlue;
+}
+
+#developer img:hover {
+	border: solid dodgerBlue 2px;
+	box-shadow: 10px 10px 15px #ff00ff;
+}
+
+#developer p {
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	position: absolute;
+	top: 2145px;
+}
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+#signInRegForm {
+	position: absolute;
+	border: solid white 2px;
+	background-color: grey;
+	border-radius: 0 100px 0 100px;
+	width: 70%;
+	heigth: 1000px;
+	top: 400px;
+	left: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#formTable {
+	background-color: #ccccff;
+	border-radius: 15px;
+	width: 800px;
+	height: 500px;
+	margin: auto;
+	text-align: center;
+}
+
+#formTable input {
+	padding: 10px;
+	margin-top: 10px;
+	width: 250px;
+	font-size: 20px;
+	border-radius: 15px;
+}
+
+#formTable input:focus {
+	border-radius: 0px;
+}
+
+#formTable select {
+	border: inset 2px;
+	padding: 10px;
+	margin-top: 10px;
+	width: 270px;
+	font-size: 20px;
+	border-radius: 15px;
+	-webkit-appearance: none;
+	color: darkGrey;
+}
+
+#formTable select:focus {
+	border-radius: 0px;
+}
